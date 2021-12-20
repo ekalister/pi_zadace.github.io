@@ -1,1 +1,1 @@
-# pi_zadace.github.io
+# Ovdje će se nalaziti zadaće iz programskog inženjerstva
