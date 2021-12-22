@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS-102</title>
+</head>
+<body>
+    
+    <script type=text/javascript>
+        let bodovi = Number(prompt("Unesi broj bodova")); 
+        let ocjena=0;
+        let poruka;
+        
+        if (bodovi >= 89 && bodovi <= 100){
+            ocjena=5;
+            poruka="Čestitke, vaša ocjena je " + ocjena;
+        }
+        else if (bodovi >= 76 && bodovi <= 88.9){
+            ocjena=4;
+            poruka="Čestitke, vaša ocjena je " + ocjena;
+        }
+        else if (bodovi >= 63 && bodovi <= 75.9){
+            ocjena=3;
+            poruka="Čestitke, vaša ocjena je " + ocjena;
+        }
+        else if (bodovi >= 50 && bodovi <= 62.9){
+            ocjena=2;
+            poruka="Čestitke, vaša ocjena je " + ocjena;
+        }
+        
+        document.write(poruka);
+        
+        
+    </script>        
+</body>
+
+</html>
